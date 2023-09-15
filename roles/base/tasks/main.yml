@@ -1,0 +1,4 @@
+ - name: add ssh key for oak
+   authorized_key: 
+     user: oak
+     key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINp7pnapLcOmQzEci7zP/mkI43eiiMnnZUMHc7Ouj+OM ansible"
